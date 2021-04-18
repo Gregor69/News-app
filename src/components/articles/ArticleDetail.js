@@ -5,7 +5,7 @@ import React from 'react';
 const ArticleDetail = ({article}) => {
 
     if(!article){
-        return <p>Loading...</p>
+        return <p>Loading....</p>
     }
     return (
         <div className = "article-detail">
